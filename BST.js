@@ -1,7 +1,18 @@
-export default class Node (data, left = null, right = null){
-    constructor (){
-        this.data = data;
-        this.left = left;
-        this.right = right
+import Node from "./Node";
+
+export default class BST {
+  constructor() {
+    this.root = null;
+  }
+
+  getRoot() {
+    return this.root;
+  }
+
+  add(data) {
+    let node = this.root;
+    if (node === null) {
+      this.root = new Node(data);
     }
+  }
 }

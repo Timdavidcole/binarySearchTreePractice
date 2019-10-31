@@ -17,12 +17,13 @@
   },
   "homepage": "https://github.com/Timdavidcole/binarySearchTreePractice#readme",
   "devDependencies": {
+    "babel-jest": "^24.9.0",
+    "babel-polyfill": "^6.26.0",
     "jest": "^24.9.0"
   },
   "dependencies": {
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
-    "babel-jest": "^24.9.0",
     "babel-preset-env": "^1.7.0"
   }
 }
