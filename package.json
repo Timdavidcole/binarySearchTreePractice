@@ -1,0 +1,22 @@
+{
+  "name": "binarysearchpractice",
+  "version": "1.0.0",
+  "description": "- Trying to get my head around Binary Search Trees using javascript",
+  "main": "BST.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Timdavidcole/binarySearchTreePractice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Timdavidcole/binarySearchTreePractice/issues"
+  },
+  "homepage": "https://github.com/Timdavidcole/binarySearchTreePractice#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
